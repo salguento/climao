@@ -31,7 +31,7 @@ const WeatherDetails = ({ data }: WeatherDetailsProps) => {
     {
       title: "Sunset",
       value: formatTime(sys.sunset),
-      icon: Sunrise,
+      icon: Sunset,
       color: "text-blue-500",
     },
     {
